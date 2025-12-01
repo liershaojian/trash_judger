@@ -1,0 +1,14 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+sqlalchemy==2.0.27
+pymysql==1.1.0
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+requests==2.31.0
+
+# 本地模型推理依赖
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.0.0

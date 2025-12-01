@@ -1,0 +1,17 @@
+# 训练依赖
+# PyTorch GPU 版本请手动安装：
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# 
+# 或者用清华源（更快）：
+# pip install torch torchvision -i https://pypi.tuna.tsinghua.edu.cn/simple --extra-index-url https://download.pytorch.org/whl/cu118
+
+pillow>=9.0.0
+numpy>=1.21.0
+
+# 评估和可视化
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# 进度条
+tqdm>=4.64.0

@@ -1,0 +1,78 @@
+# =====================================================
+# 随机组卷系统 - Git忽略配置
+# =====================================================
+
+# ==================== IDE相关 ====================
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 前端相关 ====================
+# 依赖目录
+exam-vue/node_modules/
+node_modules/
+
+# 构建输出
+exam-vue/dist/
+dist/
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== 后端相关 ====================
+# Maven构建输出
+exam-api/target/
+target/
+
+# 日志文件
+exam-api/logs/
+logs/
+*.log
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+*.bak
+*.pyc
+
+
+# ==================== 论文相关（个人文件）====================
+论文初稿.md
+初稿2.txt
+修改意见.txt
+任务书模板
+*.docx
+convert_to_docx.py
+docx_to_md.py
+generate_document.py
+md_to_docx.py
+modify_word_margins.py
+*.pdf
+#数据集
+*.jpg
+*.md
+*.zip
+# ==================== AI工具缓存 ====================
+.specstory/
+.trae/
+.cursor/
+.copilot/
+
+# ==================== 测试/调试文件 ====================
+exam-api/1.py
+
+# ==================== 敏感配置（按需取消注释）====================
+# exam-api/src/main/resources/application-local.yml
+# docs/运行包/application-local.yml
