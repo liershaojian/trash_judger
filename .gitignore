@@ -62,7 +62,7 @@ modify_word_margins.py
 *.pdf
 #数据集
 *.jpg
-*.md
+
 *.zip
 # ==================== AI工具缓存 ====================
 .specstory/
